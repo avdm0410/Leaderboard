@@ -185,7 +185,7 @@ if (CONFIGURED) { sb = window.supabase.createClient(SUPABASE_URL, SUPABASE_ANON_
 // ---- Runners -------------------------------------------------------------
 function slug(s){return String(s).toLowerCase().trim().replace(/[^a-z0-9]+/g,"_").replace(/^_|_$/g,"");}
 const RUNNERS = [
-  "Ighsaan","Max","Tristan T","Jade C","Jade B","Andre","Dean","Cleo","Gareth","Kristian"
+  "Ighsaan","Max","Tristan T","Jade C","Jade B","Andre","Dean","Cleo","Gareth","Kristian","Ben","Bella"
 ].map((name,i)=>({id:slug(name),name,bib:i+1}));
 
 // ---- Lock deadline: 6:00am, 13 September 2026 (device local time) ---------
